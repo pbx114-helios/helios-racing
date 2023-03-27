@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3c169a4e92.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="details">
+        <div class="prod-img">
+            <img src="./img/p1.jpg" width="100%" id="img1" alt="">
+
+            <div class="img-foot">
+                <div class="img-foot-col">
+                    <img src="./img/p1.jpg" width="100%"  class="small-img" alt="">
+                </div>
+                <div class="img-foot-col">
+                    <img src="./img/p2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="img-foot-col">
+                    <img src="./img/p3.jpg" width="100%" class="small-img" alt="">
+                </div>  
+                <div class="img-foot-col">
+                    <img src="./img/p3.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="prod-details">
+            <h6 onclick="window.location.href='index.html'">Home /Helios-redbull varsity jacket</h6>
+            <h4>Helios-redbull varsity jacket</h4>
+            <h2>150 DHS/,</h2>
+            <select>
+                <option>Select Size</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+                <option>Extra Large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="cart-btn">Add To Cart</button>
+            <h4>Product Details:</h4>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis vel sint voluptatibus, reiciendis veritatis dicta enim quia exercitationem ratione, molestias fugit! Ut odit repellat aliquid. Similique perferendis in aliquid unde.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, excepturi praesentium quasi repellat odit corporis saepe velit voluptates minus esse unde dolor maxime neque eos quae sunt tempora voluptate accusantium.
+            </span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>#Recommended</h2>
+        <p>Recommendations for you!</p>
+        <div class="pro-container">
+            <div class="pro img">
+                <img src="/img/p2.jpg" alt="">
+                <div class="des">
+                    <span>HELIOS</span>
+                    <h5>Helios-redbull varsity jacket </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>150 DHS/,</h4>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+            <div class="pro img">
+                <img src="/img/p2.jpg" alt="">
+                <div class="des">
+                    <span>HELIOS</span>
+                    <h5>Helios-redbull varsity jacket </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>150 DHS/,</h4>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+            <div class="pro img">
+                <img src="/img/p3.jpg" alt="">
+                <div class="des">
+                    <span>HELIOS</span>
+                    <h5>Helios-redbull varsity jacket </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>150 DHS/,</h4>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <script>
+        var img1 = document.getElementById("img1");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            img1.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            img1.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            img1.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            img1.src = smallimg[3].src;
+        }
+    </script>
+</body>
+</html>

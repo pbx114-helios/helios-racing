@@ -470,3 +470,324 @@ header.sticky {
     color: var(--second-color);
     margin-bottom: 60px;
 }
+
+.Product{
+    background-color: var(--bg-color);
+}
+
+.banner{
+    background-image: url(/src/b1.jpg);
+    color: var(--text-color);
+    text-align: center;
+}
+
+
+.banner h2{
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.banner h4{
+    font-size: 23px;
+    margin-top: 10px;
+    color: var(--main-color);
+}
+
+.banner p{
+    color: var(--second-color);
+    font-size: 18px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.banner a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color);
+    border: 1px solid #ff4d05;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.banner a:hover{
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+
+.new-arivals {
+    text-align: center;
+    color: var(--text-color);
+}
+
+.new-arivals h2{
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+.new-arivals p{
+    color: var(--second-color);
+    margin-top: 20px;
+}
+
+.new-arivals .pro-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.new-arivals .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid var(--main-color);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+    background-color: var(--main-color);
+}
+
+.new-arivals .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+.new-arivals .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.new-arivals .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+.new-arivals .pro .des span {
+    color: var(--text-color);
+    font-size: 12px;
+}
+
+.new-arivals .pro .des h5 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+.new-arivals .pro .des i {
+    font-size: 12px;
+    color: rgba(243, 181, 25);
+}
+
+.new-arivals .pro .des h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.new-arivals .pro .fa-sharp {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: var(--bg-color);
+    color: var(--main-color);
+    border: 1px solid var(--bg-color);
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    transition: 0.5s;
+}
+
+.new-arivals .pro .fa-sharp:hover {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border: 1px solid var(--main-color);
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.instagram{
+    display: flex;
+    flex-direction: row;
+}
+
+.text_insta{
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+}
+
+.urname{
+    display: flex;
+    flex-direction: row;
+}
+
+.following{
+    display: flex;
+    flex-direction: row;
+}
+
+.logs{
+    width: 140px;
+    height: 130px;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    background-color:rgb(245, 245, 245);
+    border-radius: 48%;
+    padding-top: 4.5px;
+    padding-right: 2px;
+    border: solid 1px rgb(208, 208, 208);
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.urname p{
+    margin-left: 90px;
+    margin-top: -20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.urname button{
+    background-color: #0077ff ;
+    border: none;
+    margin-left: 10px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+
+.urname button span{
+    margin-top: -20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.ad{
+    margin-top: -15px;
+}
+
+.ad button{
+    padding-right: 15px;
+    padding-left: 0;
+    padding-top: 2px;
+    background: transparent;
+}
+
+.following{
+    margin-left: 70px;
+}
+
+.following p{
+    margin-left: 30px;
+}
+
+.following span{
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.desc{
+    margin-top: 40px;
+    padding-left: 100px;
+}
+
+.desc h4{
+    font-weight: 600;
+}
+
+.desc span{
+    color: #b0afaf;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #c7c7c7;
+    margin-bottom: 40px;
+}
+
+.mid{
+    display: flex;
+    flex-direction: row;
+}
+
+.post{
+    margin-top: -40px;
+    margin-left: 5.5in;
+    font-size: 18px;
+}
+
+.post a{
+    color: #1a1a1a;
+}
+
+.line_sub{
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+}
+
+.tagged{
+    margin-top: -40px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.tagged a{
+    color: #1a1a1a;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.g1 img{
+    width: 95%;
+}
+.g2 img{
+    width: 95%;
+}
+.g3 img{
+    width: 95%;
+}
+
+.buton{
+    margin-left: 5.5in;
+    margin-right: 5.5in;
+    background-color: #0077ff;
+    text-align: center;
+    border: 1px solid #0077ff;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 15%;
+}
+
+.buton a{
+    color: #fffcfc;
+    font-weight: 500;
+    font-size: 18px;
+}

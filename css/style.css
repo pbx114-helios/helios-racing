@@ -477,7 +477,7 @@ header.sticky {
 }
 
 .banner{
-    background-image:url(./src/bg.jpg);
+     background-image: url(/shop.jpg);
     color: var(--text-color);
     text-align: center;
 }

@@ -420,7 +420,8 @@ header.sticky {
     position: relative;
     width: 25%;
     margin-right: 1in;
-    margin-bottom: 20px;
+    margin-left: 1in;
+    margin-bottom: 40px;
 }
 
 .image__img{
